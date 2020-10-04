@@ -1,0 +1,6 @@
+**/Archive
+*vcxproj.user
+*vcxproj.filters
+*.aps
+/Installer
+/Lang
