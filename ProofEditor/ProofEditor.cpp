@@ -58,7 +58,7 @@ INT WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLi
 	::bBrowseMode = (Settings.GetValue(BROWSE_MODE) != 0);
 	MSG msg;
 
-	if(lpCmdLine[0] == NULL)
+	if(lpCmdLine == NULL || lpCmdLine == L"" || lpCmdLine[0] == NULL)
 		Files.OpenDialog(ORT_FILE_EXTN);
 	else
 		Files.InitLoadFileNames(lpCmdLine, WILD_ALL ORT_FILE_EXTN, TRUE);
