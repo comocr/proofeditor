@@ -1,6 +1,6 @@
 **/Archive
-*vcxproj.user
-*vcxproj.filters
-*.aps
+/ProofEditor/*.vcxproj.user
+/ProofEditor/*.vcxproj.filters
+/ProofEditor/*.aps
 /Installer
 /Lang
